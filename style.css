@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #141414;
+}
+h1{
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#todoForm{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+#todoForm input{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 11px;
+  border-radius: 7px;
+}
+#todoText{
+  width: 30%;
+}
+#todoDate{
+  width: 10%;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #cccccc53;
+  border-radius: 7px;
+  background-color: #373737;
+  color: white;
+}
+.add, .edit{
+  padding: 6px 20px;
+  cursor: pointer;
+  background-color: rgb(7, 153, 7);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.add:hover, .edit:hover{
+  background-color: rgb(1, 178, 1);
+}
+.delete{
+  padding: 6px 20px;
+  cursor: pointer;
+  background-color: rgb(255, 40, 40);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.delete:hover{
+  background-color: rgb(255, 81, 81);
+}
+.mark{
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #dedede;
+}
+.mark:hover{
+  background-color: #fff;
+}
+.todo-buttons button {
+  margin-left: 5px;
+}
+.done {
+  color: green;
+  font-weight: bold;
+}
+.overdue {
+  color: red;
+  font-weight: bold;
+}
